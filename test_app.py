@@ -116,5 +116,3 @@ def test_sayntimes_invalid():
 
     result_page_text = res.get_data(as_text=True)
     assert 'Invalid' in result_page_text
-
-    
